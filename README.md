@@ -77,7 +77,7 @@ If this code is useful in your own experiments or you build on it, please cite i
   title   = {Automated Control, Acquisition and analysis Software
              for Nanosecond Pump-Probe Laser Ablation Experiments},
   year    = {2026},
-  url     = {https://github.com/renjithkumarcpd-dev/Pump-probe-laser-ablation-of-thin-film-},
+  url     = {https://github.com/renjithkumarcpd-dev/Pump-probe-laser-ablation-of-thin-film},
   version = {1.0.0}
 }
 ```
