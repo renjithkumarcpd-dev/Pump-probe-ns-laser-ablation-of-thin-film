@@ -74,7 +74,7 @@ If this code is useful in your own experiments or you build on it, please cite i
 ```bibtex
 @software{kumar_pump_probe_ablation_daq,
   author  = {Kumar R, Renjith},
-  title   = {Pump-Probe Ablation DAQ: Automated Control and Acquisition Software
+  title   = {Automated Control and Acquisition Software
              for Nanosecond Pump-Probe Laser Ablation Experiments},
   year    = {2026},
   url     = {[https://github.com/<your-username>/pump-probe-ablation-daq](https://github.com/renjithkumarcpd-dev/Pump-probe-laser-ablation-of-thin-film-)},
