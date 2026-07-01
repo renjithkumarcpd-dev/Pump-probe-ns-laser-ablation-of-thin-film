@@ -13,6 +13,10 @@ authors:
     affiliation: "Institute for Plasma Research / Homi Bhabha National Institute"
 repository-code: "https://github.com/renjithkumarcpd-dev/Pump-probe-ns-laser-ablation-of-thin-film"
 license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21108254"
+    description: "Archived snapshot of version 1.0.1 on Zenodo"
 keywords:
   - laser ablation
   - pump-probe
