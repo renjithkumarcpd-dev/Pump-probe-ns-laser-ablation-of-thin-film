@@ -1,13 +1,13 @@
-# Pump-Probe Ablation DAQ
+# Pump-Probe Experimental System for Laser Ablation of Thin Films — Software
 
-Automated data acquisition and control software for nanosecond pump-probe laser ablation experiments on thin metallic films. The system synchronizes Q-switch triggering, a motorized XZ sample stage, a shutter, and oscilloscope acquisition to run unattended multi-position, multi-pulse reflectometry/transmissometry scans, and includes post-processing scripts to normalize and plot the resulting time-resolved signals.
+Automated data acquisition and control software for nanosecond pump-probe ns laser ablation experiments on thin metallic films. The system synchronizes Q-switch triggering, a motorized XZ sample stage, a shutter, and oscilloscope acquisition to run unattended multi-position, multi-pulse reflection and trasnmission scans of probe laser, and includes post-processing scripts to normalize and plot the resulting time-resolved signals in transmission and refflection.
 
-Developed for the Laser Diagnostics Section, Institute for Plasma Research (Homi Bhabha National Institute), Gandhinagar, India, for studies of laser ablation and melt dynamics of Al and Ag thin films on glass/quartz substrates.
+Developed for the Laser Diagnostics Section, Institute for Plasma Research (Homi Bhabha National Institute), Gandhinagar, India, for studies of laser ablation and melt dynamics of metallic thin films on glass/quartz substrates.
 
 ## What it does
 
-- **Firmware** (`firmware/`) — Arduino sketch that drives the XZ stepper stage, the beam shutter, and the Q-switch handshake, and reports pulse/motion status back to the PC over serial.
-- **Control GUI** (`control_gui/`) — a Tkinter application that talks to the Arduino and to an Agilent/Keysight oscilloscope over VISA. It runs the full experiment sequence: move to a position, arm the scope, open the shutter, wait for the Q-switch pulse, capture and save the waveform, then advance — for a specified number of positions and pulses-per-position, with manual shutter/stage jog controls and an emergency-stop.
+- **Firmware** (`firmware/`) — Arduino sketch that drives the XZ stepper stage, Ns laser shutter, and the Q-switch handshake, and reports pulse/motion status back to the PC over serial.
+- **Control GUI** (`control_gui/`) — a Tkinter application that talks to the Arduino and to an Agilent/Keysight oscilloscope over VISA. It runs the full experiment sequence: move to a position, arm the scope, open the shutter, wait for the Q-switch pulse, capture and save the waveform in prescribed csv format with necessary parameters on header file, then advance — for a specified number of positions and pulses-per-position, with manual shutter/stage jog controls and an emergency-stop.
 - **Analysis** (`analysis/`) — scripts to generate normalized, averaged "nav" CSV files from the raw per-pulse waveform captures (with an outlier/similarity check across repeated positions), and to produce publication-style reflection/transmission plots across pressure, fluence, and pulse-number scans.
 
 ## Repository structure
@@ -91,4 +91,4 @@ MIT — see [`LICENSE`](LICENSE).
 ## Author
 
 Renjith Kumar R — PhD Research Scholar, Laser Diagnostics Section, Institute for Plasma Research / Homi Bhabha National Institute, Gandhinagar, India.
-
+Dr. Jinto Thomas, Laser Diagnostics Section, Institute for Plasma Research / Homi Bhabha National Institute, Gandhinagar, India.
