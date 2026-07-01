@@ -11,7 +11,7 @@ authors:
 - family-names: "Thomas"
     given-names: "Jinto"
     affiliation: "Institute for Plasma Research / Homi Bhabha National Institute"
-repository-code: "https://github.com/<your-username>/pump-probe-ablation-daq"
+repository-code: "https://github.com/renjithkumarcpd-dev/Pump-probe-ns-laser-ablation-of-thin-film"
 license: MIT
 keywords:
   - laser ablation
