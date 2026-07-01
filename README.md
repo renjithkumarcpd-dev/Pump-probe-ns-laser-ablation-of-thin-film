@@ -77,7 +77,7 @@ If this code is useful in your own experiments or you build on it, please cite i
   title   = {Pump-Probe Ablation DAQ: Automated Control and Acquisition Software
              for Nanosecond Pump-Probe Laser Ablation Experiments},
   year    = {2026},
-  url     = {https://github.com/<your-username>/pump-probe-ablation-daq},
+  url     = {[https://github.com/<your-username>/pump-probe-ablation-daq](https://github.com/renjithkumarcpd-dev/Pump-probe-laser-ablation-of-thin-film-)},
   version = {1.0.0}
 }
 ```
