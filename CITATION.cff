@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
 title: "Automated Control and Acquisition Software for Nanosecond Pump-Probe Laser Ablation Experiments"
-version: 1.0.0
+version: 1.0.1
 date-released: "2026-07-01"
 authors:
   - family-names: "Kumar R"
