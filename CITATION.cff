@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Automated Control and Acquisition Software for Nanosecond Pump-Probe Laser Ablation Experiments"
+version: 1.0.0
+date-released: "2026-07-01"
+authors:
+  - family-names: "Kumar R"
+    given-names: "Renjith"
+    affiliation: "Institute for Plasma Research / Homi Bhabha National Institute"
+- family-names: "Thomas"
+    given-names: "Jinto"
+    affiliation: "Institute for Plasma Research / Homi Bhabha National Institute"
+repository-code: "https://github.com/<your-username>/pump-probe-ablation-daq"
+license: MIT
+keywords:
+  - laser ablation
+  - pump-probe
+  - thin films
+  - reflectometry
+  - transmissometry
+  - data acquisition
+  - instrumentation
+abstract: >
+  Automated data acquisition and control software for nanosecond pump-probe
+  laser ablation experiments on thin metallic films. Coordinates Q-switch
+  triggering, a motorized XZ sample stage, a beam shutter, and oscilloscope
+  acquisition (via a Tkinter GUI and Arduino firmware) to run unattended
+  multi-position, multi-pulse reflectometry/transmissometry scans, together
+  with post-processing scripts for signal normalization and plotting.
