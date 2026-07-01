@@ -8,7 +8,7 @@ authors:
   - family-names: "Kumar R"
     given-names: "Renjith"
     affiliation: "Institute for Plasma Research / Homi Bhabha National Institute"
-- family-names: "Thomas"
+  - family-names: "Thomas"
     given-names: "Jinto"
     affiliation: "Institute for Plasma Research / Homi Bhabha National Institute"
 repository-code: "https://github.com/renjithkumarcpd-dev/Pump-probe-ns-laser-ablation-of-thin-film"
